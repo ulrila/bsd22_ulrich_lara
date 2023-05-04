@@ -59,6 +59,7 @@ Lara Ulrich - Student at Campus02 Graz
 
 #### Exercises 
 - [Exercise1](exercise1.md)
+- [Exercise2](exercise2.md)
 
 
 
