@@ -57,6 +57,12 @@
 Lara Ulrich - Student at Campus02 Graz
 
 
+[My GitHub](https://github.com/ulrila)
+
+
+[Campus02](https://www.campus02.at/?gclid=EAIaIQobChMIpMDrq_fb_gIVEOKyCh2vZgiREAAYASAAEgJI-vD_BwE)
+
+
 #### Exercises 
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
