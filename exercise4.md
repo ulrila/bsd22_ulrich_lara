@@ -38,7 +38,7 @@
 
 ## Test for faculty method
 - Test 1
-  - -4! to test if it can handle negative numbers 
+  - -4! to test if the result is 0 with negative numbers
 - Test 2
   - 5!
 - Test 3
