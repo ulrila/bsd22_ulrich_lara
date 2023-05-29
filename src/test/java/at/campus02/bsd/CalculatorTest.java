@@ -54,7 +54,7 @@ public class CalculatorTest {
 
     @Test
     public void testMethodMinus3(){
-        assertEquals(-22, calculator.add(-15, 7));
+        assertEquals(-22, calculator.minus(-15, 7));
     }
 
     /*
@@ -72,7 +72,7 @@ public class CalculatorTest {
 
     @Test
     public void testMethodDivide3(){
-        assertEquals(-2, calculator.divide(-14, -7));
+        assertEquals(-2, calculator.divide(-14, 7));
     }
 
     /*
@@ -80,7 +80,7 @@ public class CalculatorTest {
      */
     @Test
     public void testMethodMultiply1(){
-        assertEquals(24, calculator.multiply(8, 3));
+        assertEquals(29.6, calculator.multiply(8, 3.7));
     }
 
     @Test
@@ -92,4 +92,25 @@ public class CalculatorTest {
     public void testMethodMultiply3(){
         assertEquals(-72, calculator.multiply(18, -4));
     }
+
+
+    /*
+     * Tests for faculty
+     */
+    @Test
+    public void testMethodFaculty1(){
+        assertEquals(-24, calculator.faculty(-4));
+    }
+
+    @Test
+    public void testMethodFaculty2(){
+        assertEquals(120, calculator.faculty(5));
+    }
+
+    @Test
+    public void testMethodFaculty3(){
+        assertEquals(5040, calculator.faculty(7));
+    }
+
+
 }
