@@ -99,7 +99,7 @@ public class CalculatorTest {
      */
     @Test
     public void testMethodFaculty1(){
-        assertEquals(-24, calculator.faculty(-4));
+        assertEquals(0, calculator.faculty(-4));
     }
 
     @Test
