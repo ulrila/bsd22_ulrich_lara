@@ -36,5 +36,14 @@
 - Test 3
   - 18 * -4 to test if it can handle a negative result
 
+## Test for faculty method
+- Test 1
+  - -4! to test if it can handle negative numbers 
+- Test 2
+  - 5!
+- Test 3
+  - 7!  
+
 
 ![screenshot of the Testcoverage](resources\images\ex4_1.png)
+![screenshot of the Testcoverage with failing faculty method](resources\images\ex4_2.png)
