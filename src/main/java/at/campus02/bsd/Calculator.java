@@ -22,4 +22,22 @@ public class Calculator {
         double result = number1*number2;
         return result;
     }
+
+    public int faculty(int number){
+
+        if(number == 0){
+            return  1;
+        } else if (number < 0) {
+            return 0;
+        } else {
+            int result = 1;
+            for (int i = 1; i <= number; i++){
+                result *= i;
+            }
+            return result;
+        }
+    }
+
+
+
 }
