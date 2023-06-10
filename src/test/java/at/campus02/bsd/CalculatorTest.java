@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest {
 
@@ -60,10 +61,13 @@ public class CalculatorTest {
     /*
      * Tests for divide Method
      */
+
+
     @Test
-    public void testMethodDivide1(){
-        assertEquals(5, calculator.divide(10, 2));
-    }
+    public void testMethodDivide1() {assertThrows(ArithmeticException.class, () -> {
+        calculator.divide(5,0);
+
+    });}
 
     @Test
     public void testMethodDivide2(){
