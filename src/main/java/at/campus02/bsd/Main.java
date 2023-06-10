@@ -17,6 +17,8 @@ public class Main {
         System.out.println("Division: " + calculator.divide(num1, num2));
         System.out.println("Multiplication: " + calculator.multiply(num1, num2));
 
+
+
         logger.info("It is a info logger.");
         logger.error("It is an error logger.");
 
