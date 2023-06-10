@@ -63,11 +63,16 @@ Lara Ulrich - Student at Campus02 Graz
 [Campus02](https://www.campus02.at/?gclid=EAIaIQobChMIpMDrq_fb_gIVEOKyCh2vZgiREAAYASAAEgJI-vD_BwE)
 
 
+### Configuration Template
+- [Log4j2Configuration Template](log4j2.xml.template)
+
 #### Exercises 
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
 - [Exercise3](exercise3.md)
 - [Exercise4](exercise4.md)
+- [Exercise5](exercise5.md)
+
 
 
 
